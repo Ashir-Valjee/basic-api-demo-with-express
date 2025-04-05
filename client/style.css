@@ -1,0 +1,27 @@
+/* reset */
+/* Import in your CSS */
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+body {
+  min-height: 100vh;
+  outline: 5px blue solid;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  outline: 5px blue solid;
+  padding: 2em;
+}
+
+header,
+footer {
+  height: 3rem;
+}
+
+main {
+  flex-grow: 1;
+  outline: 5px red solid;
+  padding: 1em;
+}
