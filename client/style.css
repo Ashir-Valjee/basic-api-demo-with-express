@@ -25,3 +25,20 @@ main {
   outline: 5px red solid;
   padding: 1em;
 }
+
+.comment-div {
+  /* background-color: burlywood; */
+  padding: 1em;
+  /* border: 2px blue solid; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.individual-comment {
+  padding: 1em;
+  border: 2px blue solid;
+  border-radius: 1rem;
+  width: 20rem;
+  flex-grow: 1;
+}
